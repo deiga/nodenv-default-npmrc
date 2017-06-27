@@ -10,6 +10,8 @@ install_default_npmrc() {
   [ "$STATUS" = "0" ] || return 0
 
   if [ -f "${NODENV_ROOT}/default-npmrc" ]; then
-    cp "${NODENV_ROOT}/default-npmrc"
+    mkdir -p "${NODENV_ROOT}/versions/${VERSION_NAME}/etc/"
+    cp -RPp "${NODENV_ROOT}/default-npmrc" "${NODENV_ROOT}/versions/${VERSION_NAME}/etc/npmrc"
+    echo "Installed npmrc $VERSION_NAME"
   fi
 }
