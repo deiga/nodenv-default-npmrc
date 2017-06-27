@@ -1,5 +1,7 @@
 # nodenv-default-npmrc
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/deiga/nodenv-default-npmrc.svg)](https://greenkeeper.io/)
+
 This nodenv plugin hooks into the `nodenv install` command to automatically
 install a `npmrc` file every time you install a new version of Node. It
 requires the `node-build` plugin to be installed.
