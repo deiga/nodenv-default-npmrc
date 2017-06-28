@@ -1,6 +1,7 @@
 # nodenv-default-npmrc
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/deiga/nodenv-default-npmrc.svg)](https://greenkeeper.io/)
+[![Build Status](https://travis-ci.org/deiga/nodenv-default-npmrc.svg?branch=master)](https://travis-ci.org/deiga/nodenv-default-npmrc)
 
 This nodenv plugin hooks into the `nodenv install` command to automatically
 install a `npmrc` file every time you install a new version of Node. It
