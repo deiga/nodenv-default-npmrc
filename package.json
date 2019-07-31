@@ -1,6 +1,6 @@
 {
   "name": "nodenv-default-npmrc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "description": "Install default npmrc every time you install a new version of Node",
   "homepage": "https://github.com/deiga/nodenv-default-npmrc#readme",
