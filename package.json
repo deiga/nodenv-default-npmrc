@@ -26,8 +26,10 @@
   },
   "devDependencies": {
     "bats": "1.1.0",
-    "bats-assert": "1.1.1",
+    "bats-assert": "^2.0.0",
     "bats-mock": "1.0.1",
+    "bats-support": "^0.3.0",
     "brew-publish": "2.3.1"
-  }
+  },
+  "dependencies": {}
 }
