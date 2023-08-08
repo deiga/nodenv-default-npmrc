@@ -9,7 +9,7 @@ jobs:
     strategy:
       matrix:
         node-version:
-          - lts
+          - lts/Hydrogen
           - node
           - 16.x
           - 14.x
@@ -22,5 +22,6 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '${{ matrix.node-version }}'
+          cache: npm
       - run: npm ci
       - run: npm test
