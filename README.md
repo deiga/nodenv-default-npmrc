@@ -1,13 +1,10 @@
 # nodenv-default-npmrc
 
-[![Build Status](https://travis-ci.org/deiga/nodenv-default-npmrc.svg?branch=master)](https://travis-ci.org/deiga/nodenv-default-npmrc)
+[![Tests](https://img.shields.io/github/actions/workflow/status/deiga/nodenv-default-npmrc/main.yml?label=tests&logo=github)](https://github.com/deiga/nodenv-default-npmrc/actions/workflows/main.yml)
 
 This nodenv plugin hooks into the `nodenv install` command to automatically
 install a `npmrc` file every time you install a new version of Node. It
 requires the `node-build` plugin to be installed.
-
-Forked from the excellent [`nodenv-default-packages`][nodenv-default-packages] plugin from
-[sstephenson][sstephenson].
 
 ## Installation
 
@@ -15,7 +12,9 @@ Forked from the excellent [`nodenv-default-packages`][nodenv-default-packages] p
 
 Make sure you have the latest nodenv and node-build versions, then run:
 
-    git clone https://github.com/deiga/nodenv-default-npmrc.git $(nodenv root)/plugins/nodenv-default-npmrc
+```
+git clone https://github.com/deiga/nodenv-default-npmrc.git $(nodenv root)/plugins/nodenv-default-npmrc
+```
 
 ### Installing with Homebrew (for OS X users)
 
@@ -41,12 +40,12 @@ nodenv-default-npmrc automatically installs the
 `$(nodenv root)/default-npmrc` file to `${PREFIX}/etc/npmrc` every time you successfully install a new
 version of Node with `nodenv install`.
 
-
 ## Credits
 
-Forked from [Sam Stephenson][sstephenson]'s [nodenv-default-packages][] by [Timo Sand][deiga].
+Forked from [nodenv-default-packages][] by [Timo Sand][deiga] (which itself was
+forked from [Sam Stephenson][sstephenson]'s [rbenv-default-gems][]).
 
 [sstephenson]: https://github.com/sstephenson
-[nodenv-default-packages]: https://github.com/rbenv/nodenv-default-packages
+[rbenv-default-gems]: https://github.com/rbenv/rbenv-default-gems
+[nodenv-default-packages]: https://github.com/nodenv/nodenv-default-packages
 [deiga]: https://github.com/deiga
-[nodenv]: https://github.com/nodenv/nodenv
