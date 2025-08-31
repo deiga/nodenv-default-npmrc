@@ -12,7 +12,9 @@ requires the `node-build` plugin to be installed.
 
 Make sure you have the latest nodenv and node-build versions, then run:
 
-    git clone https://github.com/deiga/nodenv-default-npmrc.git $(nodenv root)/plugins/nodenv-default-npmrc
+```
+git clone https://github.com/deiga/nodenv-default-npmrc.git $(nodenv root)/plugins/nodenv-default-npmrc
+```
 
 ### Installing with Homebrew (for OS X users)
 
