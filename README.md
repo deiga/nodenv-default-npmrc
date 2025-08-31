@@ -1,6 +1,6 @@
 # nodenv-default-npmrc
 
-[![Build Status](https://travis-ci.org/deiga/nodenv-default-npmrc.svg?branch=master)](https://travis-ci.org/deiga/nodenv-default-npmrc)
+[![Tests](https://img.shields.io/github/actions/workflow/status/deiga/nodenv-default-npmrc/main.yml?label=tests&logo=github)](https://github.com/deiga/nodenv-default-npmrc/actions/workflows/main.yml)
 
 This nodenv plugin hooks into the `nodenv install` command to automatically
 install a `npmrc` file every time you install a new version of Node. It
