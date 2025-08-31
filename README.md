@@ -6,9 +6,6 @@ This nodenv plugin hooks into the `nodenv install` command to automatically
 install a `npmrc` file every time you install a new version of Node. It
 requires the `node-build` plugin to be installed.
 
-Forked from the excellent [`rbenv-default-gems`][rbenv-default-gems] plugin from
-[sstephenson][sstephenson].
-
 ## Installation
 
 ### Installing as a nodenv plugin
@@ -41,12 +38,12 @@ nodenv-default-npmrc automatically installs the
 `$(nodenv root)/default-npmrc` file to `${PREFIX}/etc/npmrc` every time you successfully install a new
 version of Node with `nodenv install`.
 
-
 ## Credits
 
-Forked from [Sam Stephenson][sstephenson]'s [rbenv-default-gems][] by [Timo Sand][deiga].
+Forked from [nodenv-default-packages][] by [Timo Sand][deiga] (which itself was
+forked from [Sam Stephenson][sstephenson]'s [rbenv-default-gems][]).
 
 [sstephenson]: https://github.com/sstephenson
 [rbenv-default-gems]: https://github.com/rbenv/rbenv-default-gems
+[nodenv-default-packages]: https://github.com/nodenv/nodenv-default-packages
 [deiga]: https://github.com/deiga
-[nodenv]: https://github.com/nodenv/nodenv
